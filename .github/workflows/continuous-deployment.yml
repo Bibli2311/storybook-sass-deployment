@@ -12,6 +12,7 @@ permissions:
 jobs:
   build-and-deploy-storybook:
     runs-on: ubuntu-latest
+    environment: github-pages
 
     strategy:
       matrix:
